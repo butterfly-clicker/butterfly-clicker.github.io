@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /> 
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Butterfly Click Test - butterfly-clicker.github.io</title>
+    <meta name="title" content="Butterfly Click Test - butterfly-clicker.github.io">
+    <meta name="description" content="The butterfly click test is a different clicking technique. It is used to measure the speed of your left and right mouse button clicks.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:title" content="Butterfly Click Test - butterfly-clicker.github.io">
+    <meta property="og:description" content=" The butterfly click test is a different clicking technique. It is used to measure the speed of your left and right mouse button clicks.">
+    <meta property="og:image" content="img/banner.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="index.html">
+    <meta property="twitter:title" content="Butterfly Click Test - butterfly-clicker.github.io">
+    <meta property="twitter:description" content=" The butterfly click test is a different clicking technique. It is used to measure the speed of your left and right mouse button clicks.">
+    <meta property="twitter:image" content="img/banner.png">
+    <link rel="canonical" href="index.html">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="butterfly-clicker.github.io">
+    <link rel="icon" type="image/x-icon" href="assets/Favicon-butterfly-clicker.github.io.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <style>
+        a {
+            text-decoration: none;
+            color: #F7931C;
+        }
+        body {
+            font-size: 19px !important;
+            font-family: "Roboto", sans-serif !important;
+            background-color: hsla(246, 52%, 14%, 1);
+        }
+        .deal {
+            font-weight: 600;
+        }
+        .card-cust {
+            max-width: 696px !important;
+            height: 350px;
+            border-radius: 15px;
+            margin-top: 50px;
+            margin-right: 20px;
+        }
+        .link {
+            color: #999 !important;
+        }
+        .link:hover {
+            color: #F39C12 !important;
+        }
+        .score {
+            width: 155px;
+            height: 106px;
+        }
+        .modes {
+            border-radius: 19px;
+        }
+        .accordion-button:not(.collapsed) {
+            color: #F39C12 !important;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        .footer-section {
+            background: #231B4B;
+            position: relative;
+        }
+        .footer-cta {
+            border-bottom: 1px solid #373636;
+        }
+        .single-cta i {
+            color: #ff5e14;
+            font-size: 30px;
+            float: left;
+            margin-top: 8px;
+        }
+        .cta-text {
+            padding-left: 15px;
+            display: inline-block;
+        }
+        .cta-text h4 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+        .cta-text span {
+            color: #757575;
+            font-size: 15px;
+        }
+        /* footer */
+        .footer-content {
+            position: relative;
+            z-index: 2;
+        }
+        .footer-pattern img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 330px;
+            background-size: cover;
+            background-position: 100% 100%;
+        }
+        .footer-logo {
+            margin-bottom: 30px;
+        }
+        .footer-logo img {
+            max-width: 200px;
+        }
+        .footer-text p {
+            font-family: "Roboto", sans-serif;
+            margin-bottom: 14px;
+            font-size: 19px;
+            color: var(--bs-body-text);
+            line-height: 28px;
+        }
+        .footer-social-icon span {
+            color: #fff;
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 20px;
+        }
+        .footer-social-icon a {
+            color: #fff;
+            font-size: 16px;
+            margin-right: 15px;
+        }
+        .footer-social-icon i {
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 38px;
+            border-radius: 50%;
+        }
+        .facebook-bg {
+            background: #3B5998;
+        }
+        .twitter-bg {
+            background: #55ACEE;
+        }
+        .google-bg {
+            background: #F2C145;
+        }
+        .footer-widget-heading h3 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        .footer-widget-heading h3::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -15px;
+            height: 2px;
+            width: 50px;
+            background: #F2C145;
+        }
+        .footer-widget ul li {
+            display: inline-block;
+            float: left;
+            width: 50%;
+            margin-bottom: 12px;
+        }
+        .footer-widget ul li a:hover {
+            color: #F2C145;
+        }
+        .footer-widget ul li a {
+            color: var(--bs-body-text);
+            text-transform: capitalize;
+        }
+        .subscribe-form {
+            position: relative;
+            overflow: hidden;
+        }
+        .subscribe-form input {
+            width: 100%;
+            padding: 14px 28px;
+            background: #2E2E2E;
+            border: 1px solid #2E2E2E;
+            color: #fff;
+        }
+        .subscribe-form button {
+            position: absolute;
+            right: 0;
+            background: #F2C145;
+            padding: 13px 20px;
+            border: 1px solid #F2C145;
+            top: 0;
+        }
+        .subscribe-form button i {
+            color: #fff;
+            font-size: 22px;
+            transform: rotate(-6deg);
+        }
+        .copyright-area {
+            background: #0E0B23;
+            padding: 25px 0;
+        }
+        .copyright-text p {
+            margin: 0;
+            font-size: 14px;
+            color: var(--bs-body-text);
+        }
+        .copyright-text p a {
+            color: #F2C145;
+        }
+        .footer-menu li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .footer-menu li:hover a {
+            color: #F2C145;
+        }
+        .footer-menu li a {
+            font-size: 14px;
+            color: #A4A5C2;
+        }
+        .navbar-nav {
+            margin-left: 60px;
+            color: #454165;
+            font-size: 16px;
+        }
+        .navbar {
+            box-shadow: 0px 15px 10px -15px #302b82;
+        }
+        .f1-color {
+            color: #F2C145;
+        }
+        .click-pad {
+            width: 16rem;
+            height: 16rem;
+            background: linear-gradient(to bottom left, #2e286c 11%, #31296b 97%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            position: absolute;
+            z-index: 1000;
+            top: 26px;
+        }
+        #outer-counter {
+            width: 19rem;
+            height: 19rem;
+            border-radius: 50%;
+            border: 4px dashed #4e4682;
+            margin: auto;
+            position: absolute;
+        }
+        .spin {
+            -webkit-animation: rotateAnimation 12s linear infinite;
+            animation: rotateAnimation 12s linear infinite;
+        }
+        @-webkit-keyframes rotateAnimation {
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+        @keyframes  rotateAnimation {
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+        .material-ripple {
+            position: relative;
+            overflow: hidden;
+        }
+        .material-ink {
+            display: block;
+            position: absolute;
+            background: #F2C145;
+            border-radius: 100%;
+            transform: scale(0);
+        }
+        .material-ink-animate {
+            -webkit-animation: ripple 0.5s linear;
+            animation: ripple 0.5s linear;
+        }
+        @-webkit-keyframes ripple {
+            100% {
+                opacity: 0;
+                transform: scale(1.5);
+            }
+        }
+        @keyframes  ripple {
+            100% {
+                opacity: 0;
+                transform: scale(1.5);
+            }
+        }
+        .btn-sec {
+            color: rgb(230, 229, 231);
+            border: 2px dashed #a18130;
+            font-size: 18px;
+        }
+        .btn-sec:hover {
+            border: 1px dashed #a18130;
+            color: #fff;
+            background-color: #F2C145;
+            font-weight: bolder;
+        }
+        .btn-active {
+            border: 1px dashed #a18130;
+            color: #fff;
+            background-color: #F2C145;
+            font-weight: bolder;
+        }
+        .btn-count {
+            width: 120px;
+            height: 100px;
+            border: 4px dashed #4e4682;
+            border-radius: 15px;
+            margin: auto;
+        }
+        .f2 {
+            color: white;
+            font-weight: bold;
+        }
+        .f3 {
+            color: #F2C145;
+            font-weight: bold;
+        }
+        .btn-count1 {
+            width: 120px;
+            height: 120px;
+            border: 4px dashed #4e4682;
+            border-radius: 50%;
+            font-size: 35px;
+        }
+        .contain {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .contain .card {
+            position: relative;
+            width: 250px;
+            height: 280px;
+            background: rgba(255, 255, 255, 0.05);
+            margin: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        }
+        .contain .card .content {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: 0.5s;
+        }
+        .contain .card:hover .content {
+            transform: translateY(-20px);
+        }
+        .contain .card .content .imgBx {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+        }
+        .contain .card .content .imgBx img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            object-fit: cover;
+        }
+        .contain .card .content .contentBx h3 {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            margin: 20px 0 10px;
+            line-height: 1.1em;
+        }
+        .contain .card .content .contentBx h3 span {
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: initial;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .contain .card .sci {
+            position: absolute;
+            bottom: 50px;
+            display: flex;
+        }
+        .contain .card .sci li {
+            list-style: none;
+            margin: 0 10px;
+            transform: translateY(40px);
+            transition: 0.5s;
+            opacity: 0;
+        }
+        .contain .card:hover .sci li {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+        .contain .card .sci li a {
+            color: #fff;
+            font-size: 20px;
+        }
+        .crd {
+            border-radius: 15px;
+            background-color: #211D40;
+        }
+        .xxx {
+            font-size: 60px !important;
+            vertical-align: middle;
+            margin-top: 2px;
+            font-weight: 700;
+            color: #ff0 !important;
+            margin-right: 3px;
+            margin-left: 3px;
+        }
+        .xxxx {
+            font-size: 46px !important;
+            vertical-align: middle;
+            margin-top: 2px;
+            font-weight: 700;
+            color: #abab0d !important;
+            margin-right: 3px;
+            margin-left: 3px;
+        }
+        .modal {
+            background-color: #120f1e;
+        }
+        .btn-close{
+            background-color: #ffffff7d;
+        }
+        .modal-content {
+            background-size: cover;
+            background-image: url(img/bg.svg);
+            border-radius: 10px;
+            background-color: #262057;
+            padding:10px;
+        }
+        .modal-header{
+            border-bottom: none;
+            flex-direction: column;
+        }
+        .modal-header .btn-close {
+            margin-top: -50px;
+        }
+        #ani-name {
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+        .modal-h{
+            text-align: center;
+            border: 1px solid #f2c145;
+            padding: 5px 35px 5px 35px;
+            border-radius: 10px;
+            background-color: #040037;
+            color: #f2c145;
+            box-shadow: 5px 5px 13px #040037;
+        }
+        .rankimgBlue{
+            content:url("img/blue-star.svg");
+            max-width: 65px;
+            padding: 5px;
+        }
+        .rankimgYellow{
+            content:url("img/yellow-star.svg");
+            max-width: 65px;
+            padding: 5px;
+        }
+        .count-cps {
+            font-size: 22px;
+            color: #f1a516;
+            font-weight: 700;
+            background-color: #040037;
+            width: 16rem;
+            border-radius: 10px;
+        }
+        .line {
+            display: inline-block;
+            border-top: 0.2px solid #fca500b8;
+            width: 6rem;
+        }
+        .count-click-sec {
+            color: #fff;
+            font-size: 20px;
+        }
+        #cen-text {
+            font-size: 1rem;
+            color: #fff;
+        }
+        .sscore .stime {
+            font-size: 30px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #fff;
+        }
+        .other-info{
+            padding: 0px 20px;
+        }
+        .modal-btn {
+            border-radius: 10px;
+            color: #05003d;
+            background-color: #fac155;
+            font-weight: 600;
+            padding: 2px 20px 2px 20px;
+            border: 1px solid #fac155;
+        }
+        @media  only screen and (max-width: 450px){
+            .modal-header .btn-close {
+                font-size: 10px;
+                margin-right: -22px;
+            }
+            .modal-h {      
+                padding: 1px 20px 1px 20px;   
+            }
+            .click-pad{
+                box-shadow: 0px 1px 10px 8px #40398b;
+            }
+            #main-img{
+                width: 270px;
+            }
+        }
+        .counter {
+            font-family: 'Nunito Sans', sans-serif;
+            text-align: center;
+            height: 210px;
+            width: 210px;
+            padding: 7px 4px 0;
+            margin: 70px auto;
+            position: relative;
+            z-index: 1;
+        }
+        .counter:before {
+            content: '';
+            background: linear-gradient(to right, hsl(210deg 19% 33%), hsl(246deg 54% 10%));
+            height: 210px;
+            width: 210px;
+            border-radius: 15px;
+            border: 5px solid #f2c145;
+            box-shadow: 0 0 10px rgb(0 0 0 / 10%) inset;
+            transform: translateX(-50%) translateY(-50%) rotate(45deg);
+            position: absolute;
+            left: 50%;
+            top: 66%;
+            z-index: -1;
+        }
+        #start{
+            padding-top: 150px;
+            padding-bottom: 150px;
+            border-radius: 100%;
+        }
+        .counter .counter-icon {
+            color: #fff;
+            line-height: 70px;
+            font-size: 64px;
+            height: 46px;
+            width: 72px;
+            margin: 0 auto 8px;
+            margin-top: 96px;
+            margin-left: -63px;
+            cursor: pointer;
+        }
+        .counter .counter-icon2 {
+            color: #fff;
+            line-height: 70px;
+            font-size: 64px;
+            height: 46px;
+            width: 72px;
+            margin: 0 auto 8px;
+            margin-top: -88px;
+            margin-left: 190px;
+            cursor: pointer;
+        }
+        .counter .counter-value {
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin: -30px 0 13px 0;
+            display: block;
+            color: #e5e2e2;
+        }
+        @media  screen and (max-width:990px) {
+            .counter {
+                margin-bottom: 40px;
+            }
+        }
+        .counter h3 {
+            color: #fff;
+            background: linear-gradient(#F83F83, #E2056F);
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            padding: 10px 5px;
+            margin-top: 150px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .circle {
+            background-color: #f2c145;
+            border-radius: 50px;
+            width: 100%;
+            border: none;
+        }
+        .circle2 {
+            background-color: #f2c145;
+            border-radius: 50px;
+            width: 100%;
+            border: none;
+        }
+        .numToword {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #f63;
+            text-shadow: 0px 2px 2px #612713;
+        }
+        .numberblock {
+            border: 2px solid #f63;
+            color: #000;
+            padding: 15px;
+            border-radius: 6.5em;
+            outline: none;
+            transition: all 0.1s ease-out;
+            position: relative;
+        }
+        .numberblock:focus {
+            box-shadow: 0 2px 3px #f63;
+            border-bottom: 0.25em solid #f63;
+            top: -2px;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+        .gif {
+            max-width: 100%;
+            border: 3px solid #27216e;
+            border-radius: 20px;
+        }
+        .time-center{
+            padding-top: 2rem;
+        }
+        @media (min-width:1281px) {
+            .click-pad {
+                width: 21rem;
+                height: 21rem;
+            }
+            #outer-counter {
+                width: 24rem;
+                height: 24rem;
+            }
+            .gif {
+                width: 35rem;
+                height: 20rem;
+                border: 3px solid #27216e;
+                border-radius: 20px;
+            }
+        }
+    </style>
+    <script src="../cdn.jsdelivr.net/npm/in-view%400.6.1/dist/in-view.min.js"></script>
+    <script>
+        inView.offset(-200);
+    </script>
+ 
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div class="row mx-auto my-3"> <a href="index.html"> <img src="img/butterfly-click-test/logo.png" alt="Click Counter" width="250" height="50"> </a> </div>
+        </div>
+    </nav>
+    <div class="container-fluid my-5">
+        <h1 class="text-center mt-4 text-white">BUTTERFLY <span class="f1-color">CLICK TEST</span></h1>
+        <div class="row" style="padding-bottom: 5rem;">
+            <div class="col-lg-4">
+                <div class="row mt-5">
+                    <div class="btn-count1 mx-auto">
+                        <p class="text-center f3 time-center"><span id="timer">10</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center mt-5">
+                        <div class="btn-count mx-3">
+                            <p class="text-center f2 pt-3">CPS<br><span id="clicks">0</span></p>
+                        </div>
+                        <div class="btn-count mx-3">
+                            <p class="text-center f2 pt-3">Clicks<br><span id="score">0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 mt-4" style="position: relative;height: 18rem;">
+                <div class="w-100 d-flex justify-content-center mx-auto" style="height: inherit;">
+                    <div class="click-pad cr material-ripple" id="clickarea" style=" position: absolute;z-index: 1000;">
+                        <div id="start" class="text-center">Click To Start Test</div> <input type="hidden" id="txtSendstatus" value="0"> <input type="hidden" id="txtClick" value="0"> <input type="hidden" id="txtTimer" value="10"> <input type="hidden" id="txtStarttime" value> <input type="hidden" id="txtStart" value="0"> <input type="hidden" id="txtAction" value="score"> <input type="hidden" id="txtStatus" value="0"> <input type="hidden" id="txtShow24" value="0">
+                    </div>
+                    <div id="outer-counter" class="d-none d-lg-block d-md-block d-sm-none"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row mt-5">
+                    <div class="d-flex justify-content-center"> <button type="button" class="btn btn-sec mx-2 btntimer" id="1">1 Sec</button> <button type="button" class="btn btn-sec mx-2 btntimer" id="5">5 Sec</button> <button type="button" class="btn btn-sec mx-2 btntimer" id="10">10 Sec</button> <button type="button" class="btn btn-sec mx-2 btntimer" id="15">15 Sec</button> </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="d-flex justify-content-center"> <button type="button" class="btn btn-sec mx-2 btntimer" id="20">20 Sec</button> <button type="button" class="btn btn-sec mx-2 btntimer" id="30">30 Sec</button> <button type="button" class="btn btn-sec mx-2 btntimer" id="60">60 Sec</button> </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="d-flex justify-content-center"> <button type="button" class="btn btn-sec mx-2 btntimer" id="100">100 Sec</button> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5" style="background-color: #2F286C;">
+        <div class="container">
+            <h2 class="text-center text-white">What is <span class="f1-color">Butterfly Clicking</span> and BCT?</h2>
+            <p class="text-center pt-2">Butterfly clicking is a two-finger clicking technique. It uses the index and middle fingers to click simultaneously, mimicking a butterfly's wing movement. This method is easier to learn than jitter clicking, making it more accessible for most users. </p>
+            <P class="text-center pt-2">Taken with a Butterfly Click Test (BCT), this technique enables you to measure and calculate your performance. The BCT offers options for different time intervals, such as 1, 2, or 10 seconds. Practicing daily with the BCT can improve your clicking speed, which can be crucial in FPS, RPG, and RTS games.</P>
+            <p class="text-center pt-2">PUsing this method can substantially increase your clicks per second (CPS). Dedicated practice can boost clicking speed up to 15 CPS. This makes butterfly clicking a desirable technique for gamers looking to enhance their performance.</p>
+            <p class="text-center pt-2">The Butterfly Click Tester provides a seamless and distraction-free experience. Unlike other tools, it focuses solely on improving your clicking skills without ads. It delivers accurate results quickly, ensuring you can track your performance without any hassle.</p>
+            <p class="text-center pt-2">Overall, butterfly clicking and the BCT offer an effective way to improve your clicking speed. Practicing this method regularly can make a noticeable difference in your gaming and digital efficiency.</p>
+        </div>
+    </div>
+    <div class="container-fluid py-5" style="background-color: #2F286C;">
+        <div class="container">
+            <h2 class="text-center text-white">How does <span class="f1-color">Butterfly clicking</span> work?</h2>
+            <p class="text-center pt-2">Butterfly clicking involves using two fingers, typically the index and middle fingers, to alternately click the same mouse button. This technique increases the number of clicks per second by rapidly switching between fingers. Users position their fingers close together and exert light, quick pressure to maximize clicking speed.</p>
+            <P class="text-center pt-2">To begin, place both fingers close together on the mouse button. Start clicking by pressing down with one finger, then immediately press down with the other finger. Alternate this motion to maintain a continuous clicking pattern. Keeping the hand relaxed is essential to avoid fatigue and ensure sustained performance over time.</P>
+            <P class="text-center pt-2">Butterfly clicking measures efficiency using tools like the Butterfly Click Test, which records speed and helps improve performance. During the test, users click as fast as possible within a set timeframe, usually 5 seconds. The test calculates the number of clicks, providing a CPS (Clicks Per Second) score that users can aim to improve. Practicing with this method builds muscle memory and enhances overall clicking speed.</P>
+            <P class="text-center pt-2">Users often combine butterfly clicking with dedicated click counter tools like the Kohi Click Test or Jitter Click Test to diversify their practice routines. This variety helps refine technique and adapt to different gaming scenarios or task requirements. Each tool offers unique metrics to track progress and identify areas for improvement.</P>
+            <P class="text-center pt-2">Butterfly clicking's primary advantage is its capacity to produce a high click rate with reduced physical strain. Unlike other methods, it minimizes the risk of hand injuries, making it safer for prolonged use. Gamers benefit significantly, as they gain an edge over opponents through faster, more efficient clicking. Similarly, typists and working professionals improve productivity by completing tasks quicker, meeting deadlines effortlessly.</P>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center text-white">Getting Ready for the <span class="f1-color">Butterfly Clicking</span> Test</h2>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div style="box-shadow:0 15px 35px rgb(0 0 0 / 50%);background:rgba(255, 255, 255, 0.05);border-radius:20px" class="p-5 h-100">
+                    <h3 class="text-white text-center">Check Internet Stability</h3>
+                    <p class="text-center">Internet stability is crucial for online tests like the Butterfly Click Test. A stable connection ensures accurate results and prevents disruptions. Before taking the test, confirm your internet speed and connectivity by using speed test websites. This step helps avoid miscalculations caused by lags or delays.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="box-shadow:0 15px 35px rgb(0 0 0 / 50%);background:rgba(255, 255, 255, 0.05);border-radius:20px" class="p-5 h-100">
+                    <h3 class="text-white text-center">Have a mouse test</h3>
+                    <p class="text-center">Ensuring your mouse operates correctly is vital. Visit online mouse testing websites to check if the hardware is functioning as expected. This simple step can prevent issues during the Butterfly Click Test. It’s best to use a gaming mouse for this purpose, as they are designed to handle fast clicking speeds and provide better accuracy.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="box-shadow:0 15px 35px rgb(0 0 0 / 50%);background:rgba(255, 255, 255, 0.05);border-radius:20px" class="p-5 h-100">
+                    <h3 class="text-white text-center">Apply Required Mouse Settings</h3>
+                    <p class="text-center">Mouse settings significantly influence your performance. Adjusting the DPI (dots per inch) and altering click sensitivity can enhance your clicking speed. Research optimal settings for butterfly clicking and apply them to your mouse. This adjustment makes it easier to achieve higher click rates and improves your overall performance in the test.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="my-5 container">
+        <h2 class="text-white text-center">Why should you <span class="f1-color"> carry BCT </span> here?</h2>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-4 text-center mb-5"> <img src="img/butterfly-click-test/7.svg" alt="timer clicking" width="100" height="100"><br>
+                <h3 class="mt-4 text-white">Various Time Mode</h3><br>
+                <p>The BCT offers flexibility with different time modes. I can select from 1 second, 2 seconds, or 10 seconds to match my practice preferences. This allows me to tailor my training duration to improve my clicking efficiency at my own pace. </p>
+            </div>
+            <div class="col-md-4 text-center mb-5"> <img src="img/butterfly-click-test/10.svg" alt="timer clicking" width="100" height="100"><br>
+                <h3 class="mt-4 text-white">No Distraction</h3><br>
+                <p>This platform is designed to ensure a seamless experience without distractions. I won’t encounter annoying ads or unnecessary information. My primary focus remains on practicing and improving my clicking skills.</p>
+            </div>
+            <div class="col-md-4 text-center mb-5"> <img src="img/butterfly-click-test/12.svg" alt="timer clicking" width="100" height="100"><br>
+                <h3 class="mt-4 text-white">Perfect Tool</h3><br>
+                <p>BCT is an ideal tool for refining my clicking speed. It's built with advanced technology that delivers fast and accurate results. Whether I'm a gamer or someone seeking to enhance clicking performance, this tool meets my needs efficiently.</p>
+            </div>
+            <div class="col-md-4 text-center"> <img src="img/butterfly-click-test/11.svg" alt="timer clicking" width="100" height="100"><br>
+                <h3 class="mt-4 text-white">24/7 Support</h3><br>
+                <p>Support is available round the clock. If I run into issues or have queries about the test, assistance is just a contact away. I can rely on prompt solutions to keep my practice uninterrupted.</p>
+            </div>
+            <div class="col-md-4 text-center"> <img src="img/butterfly-click-test/9.svg" alt="timer clicking" width="100" height="100"><br>
+                <h3 class="mt-4 text-white">Socializing Tool</h3><br>
+                <p>BCT encourages friendly competition. I can challenge friends and compare results, making it a fun and social activity. Sharing my scores with others adds a competitive edge and enhances the enjoyment.</p>
+            </div>
+            <div class="col-md-4 text-center"> <img src="img/butterfly-click-test/8.svg" alt="timer clicking" width="100" height="100"><br>
+                <h3 class="mt-4 text-white"> Versatile</h3><br>
+                <p>BCT is accessible from multiple devices such as mobiles, tablets, and PCs. I don’t need to carry my laptop everywhere. Whether I’m at home or out with friends, I can practice my clicking skills anytime and anywhere using my mobile device.</p>
+            </div>
+        </div>
+    </section>
+    <section class="my-5 container">
+        <h2 class="text-white text-center"><span class="f1-color">Perks</span> and <span class="f1-color">Cons</span> of Butterfly Clicking Technique</h2>
+        <hr>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <h3 class="f1-color mb-4 text-center">Perks </h3>
+                <hr>
+                <h4 class="text-white">It is Safe for hands</h4>
+                <p>Butterfly clicking distributes the pressure evenly between two fingers, reducing the risk of strain or injury. Unlike jitter clicking, which can cause discomfort due to rapid single-finger movements, butterfly clicking minimizes repetitive stress injuries by promoting an ergonomic clicking technique.</p>
+                <h4 class="text-white">Best for Beginners</h4>
+                <p>Butterfly clicking is ideal for those new to advanced clicking methods. It doesn't require the same finger agility as other techniques, making it easier to learn and master. Beginners can quickly adapt due to its straightforward nature, providing an excellent entry point for improving overall clicking speed.</p>
+                <h4 class="text-white"> Useful in PvP battle</h4>
+                <p>In player versus player (PvP) gaming, where reaction time and speed are crucial, butterfly clicking allows players to register multiple clicks per second efficiently. This technique offers a competitive edge, enabling faster actions in games like Minecraft, where rapid clicking can mean the difference between victory and defeat.</p>
+                <h4 class="text-white">Register Maximum Clicks</h4>
+                <p>Butterfly clicking effectively registers the maximum number of clicks in a given timeframe. Utilizing both the index and middle fingers alternately, users can achieve higher clicks per second (CPS) compared to traditional single-finger clicking. This increases performance, particularly in activities requiring fast, repetitive clicks.</p>
+            </div>
+            <div class="col-md-6">
+                <h3 class="f1-color mb-4 text-center">Cons</h3>
+                <hr>
+                <h4 class="text-white">Most professionals do not prefer Butterfly clicking</h4>
+                <p>Many professional gamers prefer other clicking techniques over Butterfly clicking. They see Butterfly clicking as outdated because newer methods offer better performance. For example, drag clicking can achieve up to 30 CPS (clicks per second), significantly higher than Butterfly clicking's 20-25 CPS. This makes drag clicking more effective in high-stakes gaming scenarios where every click matters.</p>
+                <h4 class="text-white">Useless in touchpad</h4>
+                <p>Butterfly clicking becomes ineffective when using a touchpad. The technique relies on the use of a gaming mouse to perform properly. Since touchpads don't register rapid alternations between two fingers effectively, users find their clicking potential severely limited. Thus, investing in a good gaming mouse becomes essential for anyone wanting to improve their Butterfly clicking skills.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-white text-center">How to Get Better at <span class="f1-color">Butterfly clicking</span>?</h2>
+        <P class="text-center pt-2">Enhancing butterfly clicking skills requires strategic effort across several dimensions. Below are some proven ways to improve:</P>
+        <div class="row my-5">
+            <div class="col-md-4 mb-5">
+                <h3 class="text-white text-center">Set Small Goals</h3>
+                <p class="text-center">Start with realistic targets. Aim to increase your clicks per second (CPS) gradually instead of pushing for maximum speed immediately. Track progress by setting daily or weekly goals, for example, increasing CPS by 1 or 2 clicks a week. This builds confidence and avoids frustration.</p>
+            </div>
+            <div class="col-md-4 mb-5">
+                <h3 class="text-white text-center">Don't take it seriously</h3>
+                <p class="text-center">Stay relaxed while practicing. Overemphasis on perfection can create unnecessary stress and impede improvement. Treat each session as an opportunity to refine skills, not as a make-or-break moment. Enjoy the process to keep motivation high. </p>
+            </div>
+            <div class="col-md-4 mb-5">
+                <h3 class="text-white text-center">Use a High-end Mouse device</h3>
+                <p class="text-center">Invest in a good gaming mouse. High-quality mice have better response times and durability. Features like customizable buttons and adjustable sensitivity can significantly improve butterfly clicking performance. Brands focusing on competitive gaming offer some of the best options.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-white text-center">Do some finger exercise</h3>
+                <p class="text-center">Strengthen finger agility through specific exercises. Simple routines like flexing and stretching fingers, or using hand grip strengtheners, can enhance your ability to click faster. Incorporate these exercises into your daily routine to see gradual improvements in speed and endurance.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-white text-center">Practice in-game</h3>
+                <p class="text-center">Apply your skills in real-world scenarios. Play games that require rapid clicking, like Minecraft or FPS games, to adapt to the practical demands of butterfly clicking. In-game practice helps you understand the dynamics better and improve reflexive clicking.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-white text-center">Refer to YouTube</h3>
+                <p class="text-center">Leverage online resources. Numerous YouTube tutorials provide detailed guides and techniques for mastering butterfly clicking. Watching experts can offer insights into improved methods and new strategies. Follow experienced gamers to stay updated with the latest tips and tricks.</p>
+                <p class="text-center">By focusing on these areas, you can systematically enhance your butterfly clicking technique, making you more efficient both in gaming and other fast-paced computer tasks.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid py-5" style="background-color: #2F286C;">
+        <div class="container">
+            <h2 class="text-center text-white">Improve <span class="f1-color">yourself</span> in gaming </h2>
+            <p class="text-center pt-2">Practicing the Butterfly clicking technique can significantly enhance your performance in various game genres, including FPS and RTS games. This two-finger clicking method enables faster mouse clicks, giving you a competitive edge. Utilizing a Butterfly click tester helps measure and calculate your clicking speed, providing valuable feedback for improvement.</p>
+        </div>
+    </div>
+    <section class="mt-5 container">
+        <h2 class="text-white text-center mb-5">Frequently Asked <span class="f1-color">Questions</span></h2>
+        <div class="row">
+            <div class="col-sm-6 mt-4">
+                <div class="card crd h-100">
+                    <div class="card-body">
+                        <h3 class="text-white"> Is jitter clicking better than butterfly?</h3>
+                        <p>Both jitter clicking and butterfly clicking can be effective techniques for rapid clicking in games. Which one is better depends on individual preferences and comfort. Some players find jitter clicking more natural, while others prefer the control of butterfly clicking.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card crd h-100">
+                    <div class="card-body">
+                        <h3 class="text-white">What is the average CPS for butterfly clicking?</h3>
+                        <p>The average CPS (Clicks Per Second) for butterfly clicking typically ranges from 10 to 20 for most users. With extensive practice, some gamers can achieve rates exceeding 20 CPS.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card crd h-100">
+                    <div class="card-body">
+                        <h3 class="text-white">Does drag clicking hurt your mouse?</h3>
+                        <p> Yes, drag clicking can shorten the lifespan of your mouse due to the high number of clicks and friction. It may cause non-repairable damage over time, reducing the mouse's longevity. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card crd h-100">
+                    <div class="card-body">
+                        <h3 class="text-white"> What is butterfly clicking?</h3>
+                        <p> Butterfly clicking is a technique where players use two fingers to alternately click the mouse buttons rapidly, increasing the number of clicks per second. It is commonly used in gaming for superior performance. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card crd h-100">
+                    <div class="card-body">
+                        <h3 class="text-white">Does butterfly clicking hurt?</h3>
+                        <p> While butterfly clicking doesn't generally cause harm, repetitive use can lead to strain or discomfort in the fingers and wrist. It's important to take breaks and practice finger exercises to minimize strain. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="largesizemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-h">CHECK YOUR SCORE</h6> <button type="button" id="btnpopclose" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div id="modal-img" class="demo-image" style="text-align: center;"> </div>
+                        </div>
+                        <div class="col-lg-8 text-center">
+                            <div id="h2-text" class="h4-cl subtitle ">
+                                <div id="ani-name"></div>
+                            </div>
+                            <div id="starSec"></div>
+                            <p class="mb-1 pt-4 subtitle">Your CPS is</p>
+                            <div class="d-flex justify-content-center">
+                                <p class="count-cps mb-0"> <span class="cscore">0.50</span> CPS </p>
+                            </div>
+                            <p class="mb-1 pt-3 count-click-sec"><span class="sscore">1</span> Clicks in <span class="stime">2</span> Seconds </p> <span class="line pb-2"></span>
+                            <div class="other-info">
+                                <p class="mb-3 pb-3" id="cen-text"></p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center"> <button id="btnpoptry" class="modal-btn" data-bs-dismiss="modal" aria-label="Close">TRY AGAIN </button> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var score; // to store the current score    
+        var duration = parseInt(document.getElementById("txtTimer").value); // 5 seconds
+        var startTime; // start time
+        var ended = true; // boolean indicating if game is ended
+        // we get DOM References for some HTML elements
+        var timerTxt = document.getElementById("timer");
+        var scoreTxt = document.getElementById("score");
+        var clicksTxt = document.getElementById("clicks");
+        var startBtn = document.getElementById("start");
+        var clickArea = document.getElementById("clickarea");
+        var ClickSound = new Audio("audio/ClickSound2.mp3");
+        // we define two functions for showing or hiding a HTML element
+        var show = function(elem) {
+            elem.style.display = 'inline';
+        };
+        var hide = function(elem) {
+            elem.style.display = 'none';
+        };
+        function setTimer() {
+            console.log('This is setTimer');
+            console.log({
+                duration
+            });
+            console.log({
+                startTime
+            });
+            duration = parseInt(document.getElementById("txtTimer").value);
+            timerId = setInterval(function() {
+                var total = (new Date().getTime() - startTime) / 1000;
+                // while total lower than duration, we update timer and the clicks by seconds
+                if (total < duration) {
+                    timerTxt.textContent = total.toFixed(2);
+                    clicksTxt.textContent = (score / total).toFixed(2);
+                } else {
+                    // otherwise, game is ended, we clear interval and we set game as ended
+                    ended = true;
+                    clearInterval(timerId);
+                    // we call the end game method
+                    endGame();
+                }
+            }, 1);
+        }
+        // Method called when the game starts
+        function startGame() {
+            console.log('This is start game');
+            $('#txtStatus').val('1');
+            hide(startBtn);
+            $("#outer-counter").addClass("spin");
+            score = 0;
+            ended = false;
+            // we get start time
+            startTime = new Date().getTime();
+            // we create a timer with the setInterval method
+            setTimer();
+        }
+        // end game method
+        function endGame() {
+            // we write final stats
+            var clicsBySeconds = (score / duration).toFixed(2);
+            timerTxt.textContent = duration.toFixed(2);
+            clicksTxt.textContent = clicsBySeconds;
+            show(startBtn);
+            $("#outer-counter").removeClass("spin");
+            $('.time').text(duration);
+            $(".stime").text(duration);
+            var home_url = $("#txtHomeUrl").val();
+            $(".sscore").text(score);
+            $(".cscore").text(clicsBySeconds);
+            if (clicsBySeconds > 0 && clicsBySeconds <= 3.5) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Giant.png" class="main-img" id="main-img" alt="Giant " height="300" width="300">'
+                );
+                $("#ani-name").text("Giant!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Don't be Shy For Being Too Slow. Practice More to Be a Winner.”");
+            } else if (clicsBySeconds > 3.5 && clicsBySeconds <= 5.5) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Witch.png" class="main-img" id="main-img" alt="Witch" height="300" width="300">'
+                );
+                $("#ani-name").text("Witch!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 5.5 && clicsBySeconds <= 6.6) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Bowler.png" class="main-img" id="main-img" alt="Bowler" height="300" width="300">'
+                );
+                $("#ani-name").text("Bowler !");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 6.6 && clicsBySeconds <= 6.9) {
+                $("#modal-img").html(
+                    '<img src="img/rank/PEKKA.png" class="main-img" id="main-img" alt="PEKKA" height="300" width="300">'
+                );
+                $("#ani-name").text("PEKKA!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 6.9 && clicsBySeconds <= 7.5) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Wizard.png" class="main-img" id="main-img" alt="Wizard" height="300" width="300">'
+                );
+                $("#ani-name").text("Wizard!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 7.5 && clicsBySeconds <= 8) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Sneaky-Archer.png" class="main-img" id="main-img" alt="Sneaky-Archer" height="300" width="300">'
+                );
+                $("#ani-name").text("Sneaky-Archer!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 8 && clicsBySeconds <= 8.5) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Hog-Rider.png" class="main-img" id="main-img" alt="Hog-Rider" height="300" width="300">'
+                );
+                $("#ani-name").text("Hog-Rider!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 8.5 && clicsBySeconds <= 9) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Valkyrie.png" class="main-img" id="main-img" alt="Valkyrie " height="300" width="300">'
+                );
+                $("#ani-name").text("Valkyrie!");
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgBlue" src="data:," width="60" height="60" alt="BRank">'
+                    );
+                $("#cen-text").text("“Not Bad. You are An Average User. But, You can Become a Pro by practicing a bit more.”");
+            } else if (clicsBySeconds > 9) {
+                $("#modal-img").html(
+                    '<img src="img/rank/Miner.png" class="main-img" id="main-img" alt="Miner " height="300" width="300">'
+                );
+                $('#starSec').html(
+                    '<img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank"><img class="rankimgYellow" src="data:," width="60" height="60" alt="YRank">'
+                    );
+                $("#ani-name").text("Miner!");
+                $("#cen-text").text(
+                    "“Superb! You are Digging the CPS Ground Just Like an ultra-fast Miner.”"
+                );
+            }
+            $('#largesizemodal').modal('show');
+            setTimeout(function() {
+                if (clicsBySeconds > 0) {
+                    $('#largesizemodal').modal('hide');
+                    setTimeout(function() {
+                        $('#largesizemodal').modal('show');
+                    });
+                }
+            }, 10);
+        }
+        // we set a click event listener on the start button
+        startBtn.addEventListener("mousedown", function(e) {
+            if (e.buttons == 1) {
+                startGame();
+            }
+        }, {
+            passive: true
+        });
+        // we add a click event listener on the click area div to update the score when the user will click
+        clickArea.addEventListener("mousedown", function(e) {
+            if (e.buttons == 1) {
+                if (!ended) {
+                    score++;
+                    scoreTxt.textContent = score;
+                    ClickSound.currentTime = 0;
+                    ClickSound.play();
+                }
+            }
+        }, {
+            passive: true
+        });
+        clickArea.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        });
+        $(function() {
+            $(".material-ripple").on('mousedown', function(e) {
+                if (e.buttons == 1) {
+                    var rect = this.getBoundingClientRect();
+                    var ink = new Ink($(this), e, rect);
+                }
+            });
+            function Ink(parent, e, rect) {
+                this.el = $("<span>", {
+                    "class": "material-ink"
+                });
+                parent.prepend(this.el);
+                var max = Math.max(150, 150);
+                var X = e.clientX - rect.left - max + 'px';
+                var Y = e.clientY - rect.top - max + 'px';
+                this.el.css({
+                    height: max * 2,
+                    width: max * 2
+                });
+                this.el.css({
+                    top: Y,
+                    left: X
+                }).addClass("material-ink-animate");
+                this.destroy(500);
+            }
+            Ink.prototype.destroy = function(time) {
+                var that = this;
+                setTimeout(function() {
+                    that.el.remove();
+                    that = undefined;
+                }, time);
+            };
+            $('#btnpopclose').on('click', function() {
+                $('#timer').text('00');
+                $('#clicks').text('00');
+                $('#score').text('00');
+            });
+            $('#largesizemodal').on('hidden.bs.modal', function(e) {
+                $('#timer').text('00');
+                $('#clicks').text('00');
+                $('#score').text('00');
+            });
+            $("#10").addClass("btn-active");
+            $('.btntimer').on('click', function() {
+                var gmStatus = $('#txtStatus').val();
+                if (gmStatus == 1) {
+                    score = 0;
+                    var timerval = $(this).attr("id");
+                    $("#txtClick").val(0);
+                    $("#txtTimer").val(timerval);
+                    $("#txtSendstatus").val(0);
+                    $(".btntimer").each(function() {
+                        $(this).removeClass("btn-active");
+                    });
+                    $(this).addClass("btn-active");
+                    $("#timer").text(timerval);
+                    $("#clicks").text("00");
+                    $("#score").text("00");
+                    clearInterval(timerId);
+                    $("#start").show();
+                    $("#outer-counter").removeClass("spin");
+                } else {
+                    score = 0;
+                    var timerval = $(this).attr("id");
+                    $("#txtClick").val(0);
+                    $("#txtTimer").val(timerval);
+                    $("#txtSendstatus").val(0);
+                    $("#timer").text(timerval);
+                    $(".btntimer").each(function() {
+                        $(this).removeClass("btn-active");
+                    });
+                    $(this).addClass("btn-active");
+                }
+            });
+        });
+    </script>
+    <footer class="footer-section mt-4">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo"> <a href="index.html"><img src="assets/Favicon-butterfly-clicker.github.io.png" class="img-fluid" alt="logo" width="71" height="71"></a> </div>
+                            <div class="footer-text">
+                                <h5 class="text-white">Count <span class="f1-color"> Your</span> Clicks At <br><span class="f1-color">Click Counter</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="privacy.html">Privacy</a></li>
+                                <li><a href="terms.html">Terms</a></li>
+                                <li><a href="feedback.html">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Follow On</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Stay connected with us for latest gaming trends. Follow us on social media channel for more updates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-2 col-lg-2 text-center">
+                        <ul class="lang-link list-unstyled">
+                            <li class="language"> <span> <a href="index.html">EN</a> |&nbsp;<a href="fr/index.html">FR</a> |&nbsp;<a href="es/index.html">ES</a> </span> </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 text-center text-lg-left">
+                        <div class="copyright-text text-center">
+                            <p>Copyright &copy; 2024, All Right Reserved <a href="index.html">butterfly-clicker.github.io</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
